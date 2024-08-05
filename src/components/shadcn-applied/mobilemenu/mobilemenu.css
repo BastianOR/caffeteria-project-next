@@ -1,0 +1,7 @@
+.mobile-menu-links{
+    display: flex;
+    flex-direction: column;
+}
+.mobile-menu-links a{
+    cursor: default;
+}
