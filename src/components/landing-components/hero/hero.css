@@ -1,3 +1,39 @@
 .Hero{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.landing-img{
+    background-color: #a185bc;
+    /*width: 1176px;*/
+    margin-top: 22px;
+    margin-bottom: 22px;
+    width: clamp(300px, 90vw, 1176px);
+    height: 500px;
+    direction: rtl;
+    align-content: end;
+}
+.landing-img main{
+    width: clamp(280px, 60%, 400px);
+    height: 40%;
+    background-color: pink;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.landing-img main h1{
+    @apply text-5xl;
+}
+.landing-img main p{
+    @apply text-2xl;
+}
+.landing-img main button{
+    @apply text-lg;
+    @apply mt-1;
+    text-decoration: underline;
 }
