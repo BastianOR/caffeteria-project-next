@@ -1,0 +1,20 @@
+.LandingBottom{
+    @apply mt-6;
+    width: clamp(300px, 90vw, 900px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing-bottom-headline{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 2fr 5fr;
+    align-items: center;
+}
+.horizontal-line{
+    background-color: #00000059;
+    height: 2px;
+}
+.landing-bottom-headline h1{
+    @apply text-3xl;
+}
