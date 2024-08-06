@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "./navbar.css";
 import MobileMenu from "../shadcn-applied/mobilemenu/mobilemenu";
+import { CoffeeIcon } from 'lucide-react';
 
 export default function Navbars() {
   return (
@@ -17,7 +18,7 @@ export default function Navbars() {
         <nav className="nav-mobile">
             <MobileMenu/>
             <Link href={"/"}>Logo</Link>
-            <button>Coffee</button>
+            <button><CoffeeIcon size={34}/></button>
         </nav>
     </div>
   )

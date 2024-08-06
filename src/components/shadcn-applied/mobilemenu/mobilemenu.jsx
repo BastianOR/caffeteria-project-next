@@ -13,7 +13,7 @@ import { AlignLeft } from "lucide-react";
 export default function MobileMenu() {
   return (
     <Sheet>
-      <SheetTrigger><AlignLeft size={43} strokeWidth={3} /></SheetTrigger>
+      <SheetTrigger><AlignLeft size={34} strokeWidth={2} /></SheetTrigger>
       <SheetContent side="left">
         <SheetHeader>
           <SheetTitle>Logo de Cafetería</SheetTitle>

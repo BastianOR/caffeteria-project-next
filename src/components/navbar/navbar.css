@@ -47,7 +47,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @apply px-2;
+        @apply px-4;
     }
     .nav-mobile *{
         cursor: default;

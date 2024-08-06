@@ -75,9 +75,14 @@
 body{
   width: 100%;
   background-color: #1E1D19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .LandingPage{
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: clamp(320px, 96vw, 1220px);
   background-color: #FAFAF7;
   @apply mb-6;
